@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sujet de Français - Plateforme Noufel</title>
+    <style>
+        :root {
+            --primary-color: #1e3a8a;
+            --secondary-color: #3b82f6;
+            --background-color: #f3f4f6;
+            --text-color: #1f2937;
+            --box-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: var(--box-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 3px solid var(--secondary-color);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            color: var(--primary-color);
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            color: #6b7280;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .timer {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #dc2626;
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 10px;
+            background: #fee2e2;
+            border-radius: 8px;
+            display: inline-block;
+            border: 2px solid #fca5a5;
+        }
+
+        .text-box {
+            background-color: #f9fafb;
+            border-left: 5px solid var(--secondary-color);
+            padding: 25px;
+            margin-bottom: 30px;
+            font-size: 1.15em;
+            text-align: justify;
+            line-height: 1.8;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 10px;
+            margin-top: 30px;
+            font-size: 1.5em;
+        }
+
+        .questions-section ol {
+            padding-left: 20px;
+            font-size: 1.1em;
+        }
+
+        .questions-section li {
+            margin-bottom: 20px;
+        }
+
+        .table-container {
+            margin: 15px 0;
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .table-container th, .table-container td {
+            border: 1px solid #d1d5db;
+            padding: 12px;
+            text-align: left;
+            width: 50%;
+        }
+
+        .table-container th {
+            background-color: #e5e7eb;
+            color: var(--primary-color);
+        }
+
+        .author {
+            text-align: right;
+            font-style: italic;
+            margin-top: 20px;
+            color: #4b5563;
+        }
+
+        .note {
+            background-color: #fffbeb;
+            border-left: 4px solid #f59e0b;
+            padding: 15px;
+            margin-top: 30px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Plateforme Noufel</h1>
+            <p>Devoir de Dimanche - Préparation au BAC (Sujet Type)</p>
+            <p>L'épreuve de Français - Le Texte Argumentatif</p>
+        </header>
+
+        <div style="text-align: center;">
+            <div class="timer" id="time">Durée conseillée : 02:30:00</div>
+        </div>
+
+        <div class="text-box">
+            <p>
+                De nos jours, l'intégration de l'intelligence artificielle (IA) dans le domaine de l'éducation suscite un vif débat. Si certains y voient une opportunité sans précédent pour moderniser l'enseignement, d'autres, en revanche, mettent en garde contre les risques de déshumanisation de l'école.
+            </p>
+            <p>
+                D'une part, les partisans de cette technologie affirment que l'IA permet un apprentissage personnalisé. En effet, grâce aux algorithmes, chaque élève peut progresser à son propre rythme, recevoir des exercices adaptés à ses lacunes et bénéficier d'un tuteur virtuel disponible à tout moment. De plus, elle libère les enseignants des tâches administratives répétitives, <u>leur</u> permettant ainsi de se concentrer davantage sur l'accompagnement pédagogique.
+            </p>
+            <p>
+                D'autre part, les détracteurs soulèvent des inquiétudes majeures. <u>Ils</u> soutiennent que la dépendance excessive aux écrans et aux machines menace le lien social indispensable au développement de l'enfant. Par ailleurs, ils craignent que cette numérisation à outrance n'accentue les inégalités sociales, car tous les établissements ne disposent pas des mêmes moyens financiers pour s'équiper. Enfin, l'esprit critique des élèves pourrait s'émousser s'ils s'habituent à recevoir des réponses toutes faites.
+            </p>
+            <p>
+                En définitive, bien que l'intelligence artificielle offre des outils formidables pour enrichir l'éducation, elle ne doit en aucun cas remplacer l'enseignant. Il est donc impératif de trouver un juste milieu, où la technologie est au service de l'humain et non l'inverse.
+            </p>
+            <div class="author">Texte adapté, Plateforme Noufel, 2026.</div>
+        </div>
+
+        <div class="questions-section">
+            <h2>I. Compréhension de l'écrit (14 points)</h2>
+            <ol>
+                <li>Quel est le thème principal abordé dans ce texte ?</li>
+                
+                <li>Relevez du texte quatre (04) mots ou expressions appartenant au champ lexical de <strong>« l'éducation »</strong>.</li>
+                
+                <li>Classez les expressions suivantes dans le tableau ci-dessous :<br>
+                    <em>Un apprentissage personnalisé - La déshumanisation de l'école - Un tuteur virtuel - L'accentuation des inégalités.</em>
+                    <table class="table-container">
+                        <tr>
+                            <th>Arguments en faveur de l'IA (Les partisans)</th>
+                            <th>Arguments contre l'IA (Les détracteurs)</th>
+                        </tr>
+                        <tr>
+                            <td>- <br>- </td>
+                            <td>- <br>- </td>
+                        </tr>
+                    </table>
+                </li>
+
+                <li>« ... d'autres, <strong>en revanche</strong>, mettent en garde... ». <br>
+                    Le connecteur souligné exprime : 
+                    <ul>
+                        <li>La cause</li>
+                        <li>L'opposition (la concession)</li>
+                        <li>La conséquence</li>
+                    </ul>
+                    <em>Recopiez la bonne réponse.</em>
+                </li>
+
+                <li>À qui ou à quoi renvoient les pronoms soulignés dans le texte ?<br>
+                    - « ... <strong>leur</strong> permettant... » (2ème paragraphe)<br>
+                    - « <strong>Ils</strong> soutiennent... » (3ème paragraphe)
+                </li>
+
+                <li>Transformez la phrase suivante à la voix passive :<br>
+                    <em>« L'intelligence artificielle offre des outils formidables. »</em>
+                </li>
+
+                <li>Quelle est la visée communicative de l'auteur dans ce texte ?</li>
+
+                <li>Proposez un titre adéquat au texte.</li>
+
+                <li><strong>Question de synthèse :</strong> L'auteur affirme que <em>« l'intelligence artificielle ne doit en aucun cas remplacer l'enseignant »</em>. Partagez-vous ce point de vue ? Justifiez votre réponse en deux ou trois lignes.</li>
+            </ol>
+
+            <h2>II. Production écrite (06 points)</h2>
+            <p>Traitez <strong>un seul</strong> sujet au choix :</p>
+            <p><strong>Sujet 1 :</strong> Pour informer vos camarades de classe sur les enjeux de l'intelligence artificielle, faites le compte rendu objectif de ce texte qui sera publié dans la page Facebook de la Plateforme Noufel.</p>
+            <p><strong>Sujet 2 :</strong> Certains pensent que l'école de demain sera entièrement numérique, sans livres ni cahiers. Qu'en pensez-vous ? Rédigez un texte argumentatif (d'une quinzaine de lignes) dans lequel vous défendrez votre point de vue à l'aide d'arguments illustrés par des exemples.</p>
+        </div>
+
+        <div class="note">
+            <strong>Bon courage à tous les étudiants de la Plateforme Noufel !</strong> Prenez le temps de bien lire le texte avant de répondre.
+        </div>
+    </div>
+
+    <script>
+        // Minuteur simple pour simuler l'examen (2 heures et 30 minutes)
+        let temps = 9000; // 2h30 en secondes
+        const timerElement = document.getElementById("time");
+
+        setInterval(() => {
+            let heures = parseInt(temps / 3600, 10);
+            let minutes = parseInt((temps % 3600) / 60, 10);
+            let secondes = parseInt(temps % 60, 10);
+
+            heures = heures < 10 ? "0" + heures : heures;
+            minutes = minutes < 10 ? "0" + minutes : minutes;
+            secondes = secondes < 10 ? "0" + secondes : secondes;
+
+            timerElement.innerText = "Temps restant : " + heures + ":" + minutes + ":" + secondes;
+            if(temps > 0) {
+                temps--;
+            } else {
+                timerElement.innerText = "Temps écoulé !";
+                timerElement.style.color = "white";
+                timerElement.style.backgroundColor = "red";
+            }
+        }, 1000);
+    </script>
+</body>
+</html>
